@@ -1,0 +1,99 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+nav{
+    background-color: black;
+    color: aqua;
+    padding: 15px;
+    border-color:silver;
+    border-width: 10px;
+    border-style:ridge;
+  
+}
+
+ li,h1,ul {
+display: inline;
+}
+
+
+ul{
+    margin-left: 70%;
+    
+}
+li:hover{
+    color: aliceblue;
+    cursor: pointer;
+}
+
+input{
+
+    height: 40px;
+    width: 800px;
+    padding: 5px;
+}
+
+.searchbar{
+    text-align: center;
+    padding: 50px;
+    
+
+}
+
+
+
+
+
+.products {
+  display: flex;
+  flex-direction: row; /* horizontal la align */
+  justify-content: center; /* center align */
+  gap: 20px; /* space between boxes */
+  margin: 20px;
+  flex-wrap: wrap; /* screen size ku adjust aagum */
+}
+.box:hover img {
+  transform: scale(1.1);   /* zoom effect */
+}
+
+.image-box:hover {
+  transform: scale(1.05); /* classic smooth zoom */
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  border-color: #999; }
+
+.products .box {
+  border: 2px solid black; /* outline border */
+  padding: 15px;
+  width: 250px;  /* box size fix pannirukken */
+  text-align: center;
+  background-color: #f9f9f9; 
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+
+.products .box img {
+  max-width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ccc; 
+  margin-bottom: 10px;
+}
+
+
+div, h1{
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+div,h1,p{
+  padding: 10px;
+}
+
+
+.ContactUs{
+  background-color: black;
+  color: bisque;
+}
